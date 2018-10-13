@@ -1,0 +1,16 @@
+namespace rustox.procinfo;
+
+struct LoadAverage {
+  one : float;
+  five : float;
+  fifteen : float;
+  cur : uint;
+  max : uint;
+  latest_pid : uint;
+}
+
+table Proc {
+  load : LoadAverage;
+}
+
+root_type Proc;

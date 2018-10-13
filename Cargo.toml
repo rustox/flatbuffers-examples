@@ -1,0 +1,10 @@
+[package]
+name = "flatbuffers-examples"
+version = "0.1.0"
+authors = ["Sanchayan Maity <maitysanchayan@gmail.com>"]
+
+[dependencies]
+mio = "0.6"
+procfs = "0.3.2"
+flatbuffers = "0.5.0"
+bytes = "0.3.0"
